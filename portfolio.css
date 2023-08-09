@@ -1,0 +1,333 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: burlywood;
+}
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.box-1 {
+    position:relative;
+    width:940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+
+.nome {
+    font-weight:bold;
+    font-size:30px;
+    padding-bottom:10px;
+}
+
+.estudante {
+    margin-left:55px
+}
+
+nav {
+    position:absolute;
+    top:70px;
+    right:0px;
+}
+
+nav li {
+    margin-left:30px;
+    display: inline;
+}
+
+nav a {
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:black;
+    
+}
+
+nav a:hover {
+    color:cornsilk;
+
+}
+
+body {
+    background:cornsilk;
+}
+
+.box-2 {
+    width:940px;
+    margin:0 auto;
+    position: relative;
+}
+
+.foto-1 {
+    box-sizing: border-box;
+    position:absolute;
+    margin-top:80px;
+    width: 340px;
+    height:400px;
+    box-shadow: -10px 10px 8px #363636;
+}
+
+.primeiro-texto {
+    
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    margin-top:145px;
+    left:413px;
+    width:30%;
+    right:0;
+}
+
+
+.primeiro-texto h2 {
+    color: crimson;
+    font-size:22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tracinho {
+    position: relative;
+    top:175px;
+    left:415px;
+    background-color: crimson;
+    width: 30px;;
+    height: 3px;
+}
+
+.primeiro-texto p {
+    font-size:17px;
+    margin-bottom: 60px;
+}
+
+.linha-divisoria {
+    background-color:#363636;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top:600px;
+
+}
+
+.box-3 {
+    position: relative;
+    top:650px;
+    width: 940px;
+    height: 700px;
+    margin:0 auto;
+}
+
+.sobre-mim {
+    display: inline-block;
+    position: absolute;
+    left:550px;
+    top:110px;
+    font-size: 2em;
+    font-weight: bold;
+    color:#363636;
+}
+
+.segundo-texto {
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top:110px;
+    margin-top:65px;
+    margin-left:38px;
+    padding:10PX;
+    width:50%;
+    border:solid 2px #363636;
+    border-radius:15px;
+
+}
+
+.foto-2 {
+    box-sizing: border-box;
+    position: relative;
+    top:110px;
+    margin-right: 50px;
+    width: 320px;
+    height: 440px;
+    box-shadow: -10px 10px 8px #363636;
+}
+
+.linha-divisoria2 {
+    background-color:crimson;
+    width: 100%;
+    height: 20px;
+    position:relative;
+    top:700px;
+}
+
+.box-4 {
+    background-color: #363636;
+    width:100%;
+    height:1200px;
+    position: relative;
+    top:700px;
+}
+
+
+.titulo-hobbies {
+    text-align: center;
+    color: crimson;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+h5 {
+    margin-top:65px;
+    text-decoration: underline 2px;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+}
+.livros li {
+    position: relative;
+    left:175px;
+    display: inline-block;
+    align-items:center;
+}
+.livros img {
+    margin-left:20px;
+    padding: 15px;
+    padding-left:10px;
+    margin-top:40px;
+    width: 170px;
+    height: 220px;
+}
+
+
+.jogos li {
+    position: relative;
+    left:300px;
+    display: inline-block;
+    align-items:center;
+}
+
+.jogos img {
+    margin-left:20px;
+    padding: 15px;
+    padding-left:10px;
+    margin-top:40px;
+    width:120px;
+    height: 120px;
+}
+
+.animes li {
+    position: relative;
+    left:220px;
+    display: inline-block;
+    align-items:center;
+}
+
+.animes img {
+    margin-left:20px;
+    padding: 15px;
+    padding-left:10px;
+    margin-top:40px;
+    width: 290px;
+    height: 180px;
+}
+
+.linha-divisoria3 {
+    background-color:crimson;
+    width: 100%;
+    height: 20px;
+    position:relative;
+    top: 700px;
+}
+
+.box-5 {
+    width: 1040px;
+    height:750px;
+    margin:0 auto;
+    position:relative;
+    top:700px;
+}
+
+h6 {
+    box-sizing: border-box;
+    color:#363636;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline-block;
+    position: absolute;
+    bottom:550px;
+    left:560px;
+    
+}
+
+.imagem-projeto {
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;
+    top:250px;
+    right:20px;
+    width:400px;
+    height: 300px;
+    box-shadow: -10px 10px 8px #363636;
+}
+
+.terceiro-texto {
+    text-align: center;
+    width: 50%;
+    padding:10PX;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top:200px;
+    right:70px;
+    margin-top:40px;
+    border:solid 2px #363636;
+    border-radius:15px;
+    
+}
+
+footer {
+    box-sizing: border-box;
+    position:relative;
+    top:700px;
+    background-color: burlywood;
+    width:100%;
+    height: 100px;
+}
+
+.copyright {
+    position:absolute;
+    left:200px;
+    top:80px;
+}   
+
+.secao-contatos {
+    position:absolute;
+    top:65px;
+    right:0px;
+    
+}
+
+.icones {
+    width: 30px;
+    height:30px;
+}
+
+
+.icone-gmail {
+    width: 40px;
+    height: 30px;
+}
+
+.contato {
+    display: inline;
+    margin-right:20px;
+}
+
+.contato {
+    text-decoration:underline
+}
